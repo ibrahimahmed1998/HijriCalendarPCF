@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="HijriCalendar" constructor="HijriDatePicker" version="1.0.1" display-name-key="HijriDatePicker_Display_Key" description-key="HijriDatePicker_Desc_Key" control-type="standard" >
+    <external-service-usage enabled="false">
+    </external-service-usage>
+    <!-- The text field that stores the Hijri date as dd/MM/yyyy -->
+    <property name="value" display-name-key="Value_Display_Key" description-key="Value_Desc_Key" of-type="SingleLine.Text" usage="bound" required="true" />
+    <!-- Inputs are plain text: 9.1 on-prem form validation fails on static TwoOptions/Enum parameters -->
+    <property name="showGregorian" display-name-key="ShowGregorian_Display_Key" description-key="ShowGregorian_Desc_Key" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="weekStart" display-name-key="WeekStart_Display_Key" description-key="WeekStart_Desc_Key" of-type="SingleLine.Text" usage="input" required="false" />
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="css/HijriDatePicker.css" order="1" />
+      <resx path="strings/HijriDatePicker.1033.resx" version="1.0.0" />
+      <resx path="strings/HijriDatePicker.1025.resx" version="1.0.0" />
+    </resources>
+  </control>
+</manifest>

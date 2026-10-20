@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="HijriDatePicker_Display_Key" xml:space="preserve"><value>منتقي التاريخ الهجري</value></data>
+  <data name="HijriDatePicker_Desc_Key" xml:space="preserve"><value>منتقي تاريخ هجري (أم القرى) لحقول النص. يحفظ التاريخ بصيغة dd/MM/yyyy.</value></data>
+  <data name="Value_Display_Key" xml:space="preserve"><value>التاريخ الهجري</value></data>
+  <data name="Value_Desc_Key" xml:space="preserve"><value>حقل نصي يحفظ التاريخ الهجري (dd/MM/yyyy).</value></data>
+  <data name="ShowGregorian_Display_Key" xml:space="preserve"><value>إظهار التاريخ الميلادي</value></data>
+  <data name="ShowGregorian_Desc_Key" xml:space="preserve"><value>اكتب No لإخفاء التاريخ الميلادي أسفل الحقل (الافتراضي: إظهار).</value></data>
+  <data name="WeekStart_Display_Key" xml:space="preserve"><value>أول يوم في الأسبوع</value></data>
+  <data name="WeekStart_Desc_Key" xml:space="preserve"><value>Sunday أو Monday أو Saturday (الافتراضي: Sunday).</value></data>
+  <data name="WeekStart_Sunday" xml:space="preserve"><value>الأحد</value></data>
+  <data name="WeekStart_Monday" xml:space="preserve"><value>الإثنين</value></data>
+  <data name="WeekStart_Saturday" xml:space="preserve"><value>السبت</value></data>
+  <data name="Placeholder" xml:space="preserve"><value>يوم/شهر/سنة</value></data>
+  <data name="OpenCalendar" xml:space="preserve"><value>فتح التقويم</value></data>
+  <data name="PrevMonth" xml:space="preserve"><value>الشهر السابق</value></data>
+  <data name="NextMonth" xml:space="preserve"><value>الشهر التالي</value></data>
+  <data name="Month" xml:space="preserve"><value>الشهر</value></data>
+  <data name="Year" xml:space="preserve"><value>السنة</value></data>
+  <data name="Today" xml:space="preserve"><value>اليوم</value></data>
+  <data name="Clear" xml:space="preserve"><value>مسح</value></data>
+  <data name="InvalidDate" xml:space="preserve"><value>أدخل تاريخًا هجريًا صحيحًا (يوم/شهر/سنة).</value></data>
+  <data name="Unsupported" xml:space="preserve"><value>هذا المتصفح لا يدعم تقويم أم القرى.</value></data>
+</root>

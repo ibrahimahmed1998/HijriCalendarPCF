@@ -1,0 +1,210 @@
+.hdp-root {
+    position: relative;
+    width: 100%;
+    font-family: "Segoe UI", "SegoeUI", Tahoma, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    box-sizing: border-box;
+}
+
+.hdp-root *,
+.hdp-root *::before,
+.hdp-root *::after,
+.hdp-popup,
+.hdp-popup *,
+.hdp-popup *::before,
+.hdp-popup *::after {
+    box-sizing: border-box;
+}
+
+.hdp-box {
+    display: flex;
+    align-items: stretch;
+    height: 33px;
+    border: 1px solid transparent;
+    background: #fff;
+}
+
+.hdp-box:hover,
+.hdp-box:focus-within {
+    border-color: #666;
+}
+
+.hdp-invalid .hdp-box {
+    border-color: #a80000;
+}
+
+.hdp-input {
+    flex: 1 1 auto;
+    min-width: 0;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 0 8px;
+    font: inherit;
+    color: inherit;
+}
+
+.hdp-input::placeholder {
+    color: #767676;
+}
+
+.hdp-button {
+    flex: 0 0 33px;
+    border: none;
+    background: transparent;
+    color: #333;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hdp-button:hover {
+    background: #f3f2f1;
+}
+
+.hdp-disabled .hdp-box:hover {
+    border-color: transparent;
+}
+
+.hdp-hint {
+    font-size: 12px;
+    color: #605e5c;
+    padding: 2px 8px 0;
+}
+
+.hdp-hint:empty,
+.hdp-error:empty {
+    display: none;
+}
+
+.hdp-error {
+    font-size: 12px;
+    color: #a80000;
+    padding: 2px 8px 0;
+}
+
+/* Appended to document.body and positioned from script so form sections can't clip it */
+.hdp-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    width: 290px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #c8c6c4;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.18);
+    font-family: "Segoe UI", "SegoeUI", Tahoma, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    text-align: start;
+}
+
+.hdp-header {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 8px;
+}
+
+.hdp-select {
+    flex: 1 1 auto;
+    min-width: 0;
+    height: 28px;
+    font: inherit;
+    border: 1px solid #c8c6c4;
+    background: #fff;
+    padding: 0 4px;
+}
+
+.hdp-select:last-of-type {
+    flex: 0 0 72px;
+}
+
+.hdp-nav {
+    flex: 0 0 28px;
+    height: 28px;
+    border: none;
+    background: transparent;
+    font-size: 18px;
+    line-height: 1;
+    cursor: pointer;
+    color: #333;
+}
+
+.hdp-nav:hover:not(:disabled) {
+    background: #f3f2f1;
+}
+
+.hdp-nav:disabled {
+    color: #c8c6c4;
+    cursor: default;
+}
+
+.hdp-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 2px;
+}
+
+.hdp-weekday {
+    text-align: center;
+    font-size: 12px;
+    color: #605e5c;
+    padding: 4px 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.hdp-day {
+    height: 32px;
+    border: none;
+    background: transparent;
+    font: inherit;
+    cursor: pointer;
+    color: #000;
+}
+
+.hdp-day:hover {
+    background: #f3f2f1;
+}
+
+.hdp-day:focus {
+    outline: 1px solid #0078d4;
+    outline-offset: -1px;
+}
+
+.hdp-today {
+    color: #0078d4;
+    font-weight: 600;
+    box-shadow: inset 0 0 0 1px #0078d4;
+}
+
+.hdp-selected,
+.hdp-selected:hover {
+    background: #0078d4;
+    color: #fff;
+}
+
+.hdp-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    padding-top: 6px;
+    border-top: 1px solid #edebe9;
+}
+
+.hdp-link {
+    border: none;
+    background: transparent;
+    color: #0078d4;
+    font: inherit;
+    cursor: pointer;
+    padding: 4px 6px;
+}
+
+.hdp-link:hover {
+    text-decoration: underline;
+}
